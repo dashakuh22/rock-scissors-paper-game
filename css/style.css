@@ -88,19 +88,19 @@ footer {
   transform: scale(1.1);
 }
 .player-selection-rock {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/rock.png');
+  background-image: url('../images/rock.png');
 }
 .player-selection-paper {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/paper.png');
+  background-image: url('../images/paper.png');
 }
 .player-selection-scissors {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/scissors.png');
+  background-image: url('../images/scissors.png');
 }
 .player-selection-water {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/water.png');
+  background-image: url('../images/water.png');
 }
 .player-selection-victory {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/trophy.png');
+  background-image: url('../images/trophy.png');
 }
 
 .btn-reset {
