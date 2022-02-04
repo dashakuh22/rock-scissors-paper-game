@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Template</title>
+  </head>
+  <body>
+    <h1>Rock, paper, scissors!</h1>
+    
+    <h2 id="round-counter" class="round-counter">
+      <!--No rounds yet!-->
+    </h2>
+    
+    <div class="game-field">
+      
+      <section class="player-container">
+        <header class="player-name">
+          Player
+        </header>
+        <div id='user-selection-container' class="player-selection-container">
+          <button id="figure-1" class="player-selection player-selection-rock"></button>
+          <button id="figure-2" class="player-selection player-selection-scissors"></button>
+          <button id="figure-3" class="player-selection player-selection-paper"></button>
+        </div>
+        <footer id='user-choice'>
+          <!-- Pick one! -->
+        </footer>
+        <div id="user-result" class="player-result">
+          <!-- 0 -->
+        </div>
+      </section>
+
+      <div id="round-result" class="round-result">
+        <!-- VS -->  
+      </div>
+
+      <section class="player-container">  
+        <header class="player-name">
+          Computer
+        </header>
+        <div id='computer-selection-container' class="player-selection-container">
+          <!-- Waiting for your selection! -->
+        </div>
+        
+        <footer id='computer-choice'>
+
+        </footer>
+        <div id="computer-result" class="player-result">
+          <!-- 0 -->
+        </div>
+      </section>
+    </div>
+    
+    <button id="btn-reset" class="btn-reset">Reset</button>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
